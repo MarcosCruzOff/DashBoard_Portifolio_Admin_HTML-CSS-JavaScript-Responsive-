@@ -1,0 +1,48 @@
+:root {
+  --redStyle: #ec1839;
+}
+
+/* Traçado no logo */
+aside .logo a::before {
+  border-top: 4px solid var(--redStyle);
+  border-left: 4px solid var(--redStyle);
+}
+aside .logo a::after {
+  border-bottom: 4px solid var(--redStyle);
+  border-right: 4px solid var(--redStyle);
+}
+
+/* Cor de texto aplicado */
+.contact-info-item .icon .fa,
+.blog-tags a,
+.lightbox-controls .prev-item .fa,
+.lightbox-controls .next-item .fa,
+.portifolio-info .icon .fa,
+.portifolio-filter button.active,
+.service-item-inner .icon .fa,
+.about-text h3 span,
+aside nav ul li a:hover,
+aside nav ul li a.active {
+  color: var(--redStyle);
+}
+
+/* Background aplicado */
+.blog-date,
+.service-item-inner:hover .icon,
+.circle-dot,
+.timeline-item::before,
+.progress-in,
+.btn,
+.section-title h2::before,
+.section-title h2::after,
+aside .nav-toggler span,
+aside .nav-toggler span::before,
+aside .nav-toggler span::after,
+.social-link a {
+  background-color: var(--redStyle);
+}
+
+/* Border-Color */
+.portifolio-filter button.active {
+  border-color: var(--redStyle);
+}
